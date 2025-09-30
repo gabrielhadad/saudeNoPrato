@@ -15,3 +15,7 @@ html{
     text-rendering: optimizeLegibility;
 
 }
+
+header {
+    background-image: url(img/img-hero-header.jpg);
+}
