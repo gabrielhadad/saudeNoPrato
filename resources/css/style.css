@@ -17,5 +17,96 @@ html{
 }
 
 header {
-    background-image: url(img/img-hero-header.jpg);
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),
+    url(img/img-hero-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.slogan{
+
+    align-self: center;
+    margin-bottom: 20%;
+}
+
+h1{
+    color: #fff;
+    font-size: 180%;
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1;
+
+}
+
+.btn:link, .btn:visited{
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #e67e62;
+    padding: 10px 30px;
+    border-radius: 200px;
+    
+}
+
+.btn-full{
+
+    background-color: #e67e62;
+    margin-right: 10px;
+}
+
+.btn:hover, .btn:active{
+
+    background-color: #cf6d17;
+    border-color: #cf6d17;
+
+}
+
+.logo{
+
+    height: 100px;
+
+}
+
+header nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    padding-left: 30px;
+}
+
+header nav ul{
+    
+    display: flex;
+    width: 650px;
+    justify-content: space-around;
+    list-style-type: none;
+    
+
+}
+
+header nav ul li a:link, header nav ul li a:visited{
+
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding-bottom: 5px;
+
+}
+
+header ul li a:hover, head ul li a:active{
+
+    border-bottom: 2px solid #cf6d17;
+
 }
