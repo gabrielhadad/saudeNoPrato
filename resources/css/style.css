@@ -1,3 +1,12 @@
+:root{
+    
+    --laranja-claro: #e67e22;
+    --laranja: #cf6d17;
+
+}
+
+
+
 *{
 
     margin: 0;
@@ -263,4 +272,71 @@ h3{
 
     width: 40%;
 }
+
+footer{
+
+    background-color: #333;
+    font-size: 80%;
+    padding: 30px 30px;
+    
+
+}
+
+.footer-top{
+
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+footer div nav{
+
+
+
+}
+
+.footer-top ul{
+
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+
+}
+
+.footer-top ul li a:link, 
+.footer-top ul li a:visited{
+
+    text-decoration: none;
+    color: #888;
+    
+}
+
+.logo-instagram:hover{
+
+    color: #517fa4;
+}
+.logo-facebook:hover{
+
+    color: #3b5998;
+}
+.logo-youtube:hover{
+
+    color: #FF0000;
+}
+.logo-twitter:hover{
+
+    color: #00ACED;
+}
+
+.logo-facebook, .logo-instagram, .logo-twitter, .logo-youtube{
+
+
+}
+
+
+
+
+
+
 
